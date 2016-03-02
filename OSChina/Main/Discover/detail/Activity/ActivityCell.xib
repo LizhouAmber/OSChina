@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="102" id="KGk-i7-Jjw" customClass="ActivityCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="102"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="101"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eAw-Fc-rFc">
+                        <rect key="frame" x="8" y="8" width="76" height="87"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="87" id="oVL-y1-4Mk"/>
+                            <constraint firstAttribute="width" constant="76" id="zxD-KT-GQV"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[深圳]osc源创会第44期 开始报名" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qpg-K4-vAu">
+                        <rect key="frame" x="92" y="8" width="252" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="252" id="ri5-1b-YGY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016-04-21 09:00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ic-tO-kzb">
+                        <rect key="frame" x="92" y="45" width="275" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="BTF-Zg-PYN"/>
+                            <constraint firstAttribute="width" constant="275" id="EM6-CK-KLT"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="北辰东路8号北京国际会议中心" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R24-hK-57e">
+                        <rect key="frame" x="92" y="67" width="275" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="275" id="c65-0K-u0s"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="Qpg-K4-vAu" secondAttribute="bottom" constant="64.5" id="02R-6O-jVL"/>
+                    <constraint firstItem="Qpg-K4-vAu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="0aJ-oM-BZY"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="R24-hK-57e" secondAttribute="bottom" constant="5.5" id="31d-mC-Q2r"/>
+                    <constraint firstItem="eAw-Fc-rFc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="FgU-gB-SVd"/>
+                    <constraint firstItem="eAw-Fc-rFc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="OBo-cE-wyw"/>
+                    <constraint firstItem="9Ic-tO-kzb" firstAttribute="leading" secondItem="eAw-Fc-rFc" secondAttribute="trailing" constant="8" id="aAK-rB-LQU"/>
+                    <constraint firstItem="9Ic-tO-kzb" firstAttribute="top" secondItem="Qpg-K4-vAu" secondAttribute="bottom" constant="16" id="fln-ZC-mcM"/>
+                    <constraint firstItem="R24-hK-57e" firstAttribute="top" secondItem="9Ic-tO-kzb" secondAttribute="bottom" constant="1" id="kng-DJ-TpD"/>
+                    <constraint firstItem="R24-hK-57e" firstAttribute="leading" secondItem="eAw-Fc-rFc" secondAttribute="trailing" constant="8" id="q3T-ny-35f"/>
+                    <constraint firstItem="Qpg-K4-vAu" firstAttribute="leading" secondItem="eAw-Fc-rFc" secondAttribute="trailing" constant="8" id="wFQ-78-uQK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addressLabel" destination="R24-hK-57e" id="HOC-W5-b7D"/>
+                <outlet property="dateLabel" destination="9Ic-tO-kzb" id="1Em-Z3-Wtc"/>
+                <outlet property="leftImageView" destination="eAw-Fc-rFc" id="FLN-h8-Gz1"/>
+                <outlet property="topLabel" destination="Qpg-K4-vAu" id="ffb-4h-oFj"/>
+            </connections>
+            <point key="canvasLocation" x="440.5" y="210"/>
+        </tableViewCell>
+    </objects>
+</document>

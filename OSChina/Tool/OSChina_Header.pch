@@ -1,0 +1,47 @@
+//
+//  OSChina_Header.pch
+//  OSChina
+//
+//  Created by NoPass on 16/2/6.
+//  Copyright © 2016年 李周. All rights reserved.
+//
+
+#ifndef OSChina_Header_pch
+#define OSChina_Header_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "OSCAPI.h"
+
+#import "AFNetworking.h"
+
+#import "DDXML.h"
+
+#import "OSCNetworking.h"
+
+#import "Utils.h"
+
+#import "UIImageView+WebCache.h"
+
+#import "OSCJudgmentOfDate.h"
+
+#define USER_LOGIN_NOTI       @"UserLoginNotication"
+
+#define USERNAME              @"userName"
+#define USERPSW               @"userPwd"
+#define USERID                @"userId"
+#define USERFROM              @"userFrom"
+#define USERFOLLOWERS         @"userFollowers"
+#define USERFANS              @"userFans"
+#define USERSCORE             @"userScore"
+#define USERPORTRAIT          @"userPortrait"
+#define USERFAVORITE_COUNT    @"userFavoritecount"
+#define USERGENDER            @"userGender"
+#define USER_IS_LOGIN         @"isLogin"
+
+
+#define SCREEN_WIDTH   self.view.frame.size.width
+#define SCREEN_HEIGHT  self.view.frame.size.height
+
+#endif /* OSChina_Header_pch */
